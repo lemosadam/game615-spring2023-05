@@ -1,14 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CoinScript : MonoBehaviour
 {
-
     float rotateSpeed = 100f;
-    public float coinsCollected = 0;
-    
-    
     void Start()
     {
         
@@ -20,15 +17,6 @@ public class CoinScript : MonoBehaviour
         gameObject.transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
         
     }
-private void OnTriggerEnter(Collider other)
-   {
-      if (other.CompareTag("Player"))
-       {
-          Destroy(gameObject);
-          //GameObject CoinEffect = (GameObject)Instantiate(coineffect, transform.position, transform.rotation);
-            coinsCollected = coinsCollected++;
 
-        }
-    }
 }
 
