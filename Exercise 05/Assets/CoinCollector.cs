@@ -8,18 +8,21 @@ public class CoinCollector : MonoBehaviour
 {
     int coinsCollected = 0;
     public TMP_Text coinsCollectedCount;
+    public bool MoveForward;
+    
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
-       
+       MoveForward = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +36,18 @@ public class CoinCollector : MonoBehaviour
             //GameObject CoinEffect = (GameObject)Instantiate(coineffect, transform.position, transform.rotation);
             
 
+        }
+
+        if (other.CompareTag("trigger"))
+        {
+           MoveForward = true;
+           print("triggered");
+
+        }
+
+        if (other.CompareTag("enemy"))
+        {
+            Destroy(gameObject);
         }
     }
 }
