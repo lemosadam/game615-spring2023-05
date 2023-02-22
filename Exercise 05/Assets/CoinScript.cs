@@ -6,6 +6,7 @@ using TMPro;
 public class CoinScript : MonoBehaviour
 {
     float rotateSpeed = 100f;
+    //ParticleSystem coinSparkle = GetComponent<ParticleSystem>();
     void Start()
     {
         
