@@ -6,6 +6,9 @@ Dungeon by Adam and Jacob
 
 
 skull003 by Jake K-H [CC-BY] via Poly Pizza
+
 Armor Metal byQuaternius
+
 Shield Heater byQuaternius
+
 Long Sword by ImForth [CC-BY] via Poly Pizza
