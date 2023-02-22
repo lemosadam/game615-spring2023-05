@@ -12,3 +12,5 @@ Armor Metal byQuaternius
 Shield Heater byQuaternius
 
 Long Sword by ImForth [CC-BY] via Poly Pizza
+
+Coin by Poly by Google [CC-BY] via Poly Pizza
