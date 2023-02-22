@@ -6,7 +6,7 @@ public class CubeScript : MonoBehaviour
 {
 
     
-    float forwardSpeed = .5f;
+    public float forwardSpeed = .7f;
     float rotateSpeed = 100f;
     public CoinCollector cc;
    
